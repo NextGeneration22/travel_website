@@ -1,0 +1,82 @@
+#webTitle{
+    float: left; 
+}
+#webPages{ 
+   display:flex;
+   justify-self:center; 
+   width: 15vw; 
+} 
+#searchBtns{ 
+    position:absolute;
+    top:6vh;
+    right:10px;
+    border-radius:15px;
+    outline:none;
+} 
+#navbar{ 
+    position:relative;
+    color: white;
+    background-color: rgb(56, 182, 220); 
+    height: 15vh; 
+} 
+#search, #reset{ 
+   cursor:pointer;
+   color:white; 
+   background-color: #10ff0f;
+   border-radius: 15px; 
+}
+#searchbar{
+   border-radius:15px;
+   outline:none;
+}
+#backimage{
+   position:absolute;
+   background-image: url(./images/city_back.jpg);
+   background-size: cover;
+   background-repeat:no-repeat;
+   top:0;
+   left:0;
+   right:0;
+   bottom: 0;
+}
+h1{
+   color:white;
+   position:absolute;
+   width:30vw;
+   left:12vw;
+   top:30vh;
+}
+p{
+   color:white;
+   position:absolute;
+   width:40vw;
+   left:12vw;
+   top:50vh;
+}
+#booknowB{
+   position: absolute;
+   left:12vw;
+   top:70vh;
+}
+#sotialmedia{
+    position:absolute;
+    top:50vh;
+}
+#mediaIcone{
+    width: 3vw;
+    cursor:pointer;
+}
+#line{ 
+    position:absolute;
+    width: 0.5vh;
+    height: 25vh; 
+    top:20vh;
+    left:2vw;
+    background-color: gray;
+}
+#booknowB{
+    border-radius: 15px; 
+    background-color: rgb(57, 170, 196);
+    color:white;
+    cursor:pointer;
+}

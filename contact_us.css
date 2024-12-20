@@ -1,0 +1,80 @@
+#webTitle{
+    float: left; 
+}
+#webPages{ 
+   display:flex;
+   justify-self:center; 
+   width: 15vw; 
+}  
+#navbar{ 
+    position:relative;
+    color: white;
+    background-color: rgb(56, 182, 220); 
+    height: 15vh; 
+} 
+#backimage{
+   position:absolute;
+   background-image: url(./images/city_back.jpg);
+   background-size: cover;
+   background-repeat:no-repeat;
+   top:0;
+   left:0;
+   right:0;
+   bottom: 0;
+}
+h1{
+   color:white;
+   position:absolute;
+   width:30vw;
+   left:12vw;
+   top:40vh;
+}
+p{
+   color:white;
+   position:absolute;
+   width:40vw;
+   left:12vw;
+   top:50vh;
+}
+#sotialmedia{
+    position:absolute;
+    top:50vh;
+}
+#mediaIcone{
+    width: 3vw;
+    cursor:pointer;
+}
+#line{ 
+    position:absolute;
+    width: 0.5vh;
+    height: 25vh; 
+    top:20vh;
+    left:2vw;
+    background-color: gray;
+}
+#userinput{
+    position:absolute;
+    width:35vw;
+    left:30vw;
+    top:45vh;
+}
+textarea{
+    width: 35vw; 
+    height: 20vh; 
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+input{
+    width:35vw;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+label{
+    color:white;
+}
