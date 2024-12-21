@@ -30,7 +30,7 @@
    outline:none;
 }
 #backimage{
-   position:absolute;
+   position:fixed;
    background-image: url(./images/city_back.jpg);
    background-size: cover;
    background-repeat:no-repeat;
@@ -79,4 +79,21 @@ p{
     background-color: rgb(57, 170, 196);
     color:white;
     cursor:pointer;
+}
+#searchresult{
+    position: absolute;
+    right:0;
+    width: 40vw;
+    height:85vh;
+    overflow: auto;
+}
+#city, #temple, #beach{
+    width: 38vw;
+}
+#description{
+    background:#fff;
+    width: 38vw;
+}
+h3{
+    color:#fff;
 }
