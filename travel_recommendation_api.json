@@ -11,7 +11,7 @@
                 },
                 {
                     "name": "Melbourne, Australia",
-                    "imageUrl": "./image/city_melbourne.jpg",
+                    "imageUrl": "./images/city_melbourne.jpg",
                     "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
                 }
             ]
@@ -38,12 +38,12 @@
             "cities": [
                 {
                     "name": "Rio de Janeiro, Brazil",
-                    "imageUrl": "./images/city_rio.jpg",
+                    "imageUrl": "./images/city_rio.webp",
                     "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
                 },
                 {
                     "name": "São Paulo, Brazil",
-                    "imageUrl": "./images/city_sao-paulo.jpg",
+                    "imageUrl": "./images/city_sao_paulo.jpg",
                     "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
                 }
             ]
