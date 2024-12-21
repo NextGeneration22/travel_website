@@ -97,3 +97,10 @@ p{
 h3{
     color:#fff;
 }
+#view{
+    display: flex;
+    color:white;
+    background-color:#38b6dc;
+    justify-self: center;
+    cursor: pointer;
+}
