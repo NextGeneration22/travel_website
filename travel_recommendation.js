@@ -1,6 +1,6 @@
 const searchResult = document.getElementById("searchresult");
 let dataArray= [];
-const segustion =['countries', 'temples', 'beaches'];
+const segustion =['countries', 'temples', 'beaches', 'australia', 'japan', 'brazil'];
 
 function findDestination(){
     const searchinput = document.getElementById("searchbar").value.toLowerCase();
@@ -10,6 +10,30 @@ function findDestination(){
       .then(data=>{
         searchResult.innerHTML = '';
         switch(searchkey){
+            case 'australia':
+                data.countries[0].cities.forEach(element=>{
+                     searchResult.innerHTML += `<h2>Australia</h2>`;
+                     searchResult.innerHTML += `<h3>${element.name}</h3>`;
+                     searchResult.innerHTML += `<img src="${element.imageUrl}" id='city'/>`;
+                     searchResult.innerHTML += `<div id="description">${element.description}</div>`;
+                })
+                break;
+            case 'japan':
+                data.countries[1].cities.forEach(element=>{
+                     searchResult.innerHTML += `<h2>Japan</h2>`;
+                     searchResult.innerHTML += `<h3>${element.name}</h3>`;
+                     searchResult.innerHTML += `<img src="${element.imageUrl}" id='city'/>`;
+                     searchResult.innerHTML += `<div id="description">${element.description}</div>`;
+                })
+                break;  
+            case 'brazil':
+                data.countries[2].cities.forEach(element=>{
+                     searchResult.innerHTML += `<h2>Brazil</h2>`;
+                     searchResult.innerHTML += `<h3>${element.name}</h3>`;
+                     searchResult.innerHTML += `<img src="${element.imageUrl}" id='city'/>`;
+                     searchResult.innerHTML += `<div id="description">${element.description}</div>`;
+                })
+                break;
             case 'countries':
                 data.countries.forEach(element => {
                     searchResult.innerHTML += `<h2>${element.name}</h2>`;
