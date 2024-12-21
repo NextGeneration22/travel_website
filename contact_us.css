@@ -83,4 +83,5 @@ label{
     color:white;
     background-color: skyblue;
     border-radius: 15px;
+    cursor: pointer;
 }
