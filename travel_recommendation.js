@@ -19,17 +19,17 @@ function findDestination(){
                 });
                 break;
             case 'temples':
-                data.temples.forEach(element=>{
-                    searchResult.innerHTML += `<img src="${element.imageUrl}" id="temple/>`;
-                    searchResult.innerHTML += `<h2>${element.name}</h2>`;
-                    searchResult.innerHtml += `<div id="description">${element.description}</div>`;
+                data.temples.forEach(e=>{
+                    searchResult.innerHTML += `<h2>${e.name}</h2>`;
+                    searchResult.innerHTML += `<img src="${e.imageUrl}" id='temple'/>`;
+                    searchResult.innerHTML += `<div id="description">${e.description}</div>`;
                 });
                 break;
             case 'beaches':
-                data.beaches.forEach(element=>{
-                    searchResult.innerHTML += `<img src="${element.imageUrl} id="beach/>`;
-                    searchResult.innerHTML += `<h2>${element.name}</h2>`
-                    searchResult.innerHTML += `<div id="description">${element.description}</div>`
+                data.beaches.forEach(i=>{
+                    searchResult.innerHTML += `<h2>${i.name}</h2>`
+                    searchResult.innerHTML += `<img src="${i.imageUrl}" id='beach'/>`;
+                    searchResult.innerHTML += `<div id="description">${i.description}</div>`
                 });
                 break;
             default:
